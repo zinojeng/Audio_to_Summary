@@ -29,9 +29,3 @@ refine_prompt = PromptTemplate(
     template=refine_template,
     input_variables=["existing_answer", "text"],
 )
-
-#Make sure you don't lose any important information.
-#Also end with a list of:
-#- Summary in zh-tw
-#- Summary 10 most important keypoint in zh-tw
-#    "Given the new context, refine the original summary and summary 10 keypoints from original text in zh-tw ."
