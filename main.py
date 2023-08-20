@@ -7,7 +7,7 @@ st.title("Audio to :blue[_Summary_]")
 
 st.text("use the OpenAI Whisper function to convert your audio recording to a summary")
 st.text("use gpt-3.5-turbo-16k: faster and significantly cheaper to run")
-st.markdown('coded by Dr. Tseng  @zinojeng')
+st.text('coded by Dr. Tseng  @zinojeng')
 
 
 # Get the open AI API Key
