@@ -6,7 +6,7 @@ from lc_functions import split_text, initialize_llm, summarize_text, initialize_
 from langchain.chains.summarize import load_summarize_chain
 from prompts import PROMPT_QUESTIONS
 
-st.title("Audio to _Summary_")
+st.title("Audio to :blue[_Summary_]")
 
 st.text("use the OpenAI Whisper function to convert your audio recording to a summary")
 st.text("use gpt-3.5-turbo-16k: faster and significantly cheaper to run")
